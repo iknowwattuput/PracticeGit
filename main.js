@@ -14,6 +14,10 @@ const multiplyTwoNums = (a, b) => {
   return a * b;
 };
 
+const sayHello = () => {
+  console.log("Hello");
+};
+
 console.log(addTwoNums(1, 2));
 console.log(addTwoNums(-1, 2));
 console.log(subtractTwoNums(1, 2));
