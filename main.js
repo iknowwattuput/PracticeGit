@@ -10,6 +10,10 @@ const divideTwoNums = (a, b) => {
   return a / b;
 };
 
+const multiplyTwoNums = (a, b) => {
+  return a * b;
+};
+
 console.log(addTwoNums(1, 2));
 console.log(addTwoNums(-1, 2));
 console.log(subtractTwoNums(1, 2));
