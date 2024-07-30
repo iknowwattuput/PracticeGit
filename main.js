@@ -1,6 +1,5 @@
 const addTwoNums = (a, b) => {
-  const result = a + b;
-  return result;
+  return a + b;
 };
 
 const subtractTwoNums = (a, b) => {
@@ -8,5 +7,5 @@ const subtractTwoNums = (a, b) => {
 };
 
 console.log(addTwoNums(1, 2));
+console.log(addTwoNums(-1, 2));
 console.log(subtractTwoNums(1, 2));
-
