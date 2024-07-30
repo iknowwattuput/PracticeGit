@@ -18,6 +18,10 @@ const sayHello = () => {
   console.log("Hello");
 };
 
+const sayHi = () => {
+  console.log("Hi");
+};
+
 console.log(addTwoNums(1, 2));
 console.log(addTwoNums(-1, 2));
 console.log(subtractTwoNums(1, 2));
