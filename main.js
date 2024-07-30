@@ -22,6 +22,10 @@ const sayHi = () => {
   console.log("Hi");
 };
 
+const pushArray = (a,b) => {
+  a.push(b)
+}
+
 console.log(addTwoNums(1, 2));
 console.log(addTwoNums(-1, 2));
 console.log(subtractTwoNums(1, 2));
